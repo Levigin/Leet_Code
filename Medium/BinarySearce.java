@@ -7,7 +7,7 @@ public class BinarySearce {
     public static void main(String[] args) {
 
         int[] array = new int[] {-1,0,2,3,4,5,6,14,20,28,30,41};
-        int target =47;
+        int target =14;
         System.out.println(search(array,target));
 
     }
