@@ -36,7 +36,8 @@ public class Valid_Parentheses_20 {
 
     public static boolean recursive_seeker(String s){
 
-        if (s.length() == 2) return s.charAt(0)=='{' && s.charAt(1) == '}' || s.charAt(0) == '[' && s.charAt(1) == ']' || s.charAt(0) == '(' && s.charAt(1) == ')';
+        if (s.length() == 2) return s.charAt(0)=='{' && s.charAt(1) == '}' || s.charAt(0) == '[' && s.charAt(1) == ']'
+                || s.charAt(0) == '(' && s.charAt(1) == ')';
 
 
         if (s.length() == 0) return true;
