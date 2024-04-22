@@ -23,6 +23,7 @@ def insert(intervals: list[list[int]], new_interval: list[int]) -> list[list[int
                 l_ = new_interval[0]
             else:
                 l_ = new_interval[0]
+
             while i != right_ind:
                 i += 1
 
